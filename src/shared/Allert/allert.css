@@ -1,0 +1,12 @@
+.alert {
+  position: absolute;  
+  top: 10%;
+  left: calc(50% - 7rem);
+  width: 14rem;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.card-body {
+  padding: 0;
+}

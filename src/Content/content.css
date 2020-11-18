@@ -1,0 +1,47 @@
+.list-group-item__user {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item__id {
+  width: 10%;
+  text-align: left;
+}
+
+.item__username {
+  width: 30%;
+  text-align: left;
+}
+
+.item__first_name {
+  width: 30%;
+  text-align: left;
+}
+
+
+.item__last_name {
+  width: 30%;
+  text-align: left;
+}
+
+@media screen and (max-width: 720px) { 
+  .list-group-item__user {
+    flex-flow: column nowrap;
+  }
+  .item__id {
+    width: 100%;
+  }
+  
+  .item__username {
+    width: 100%;
+  }
+  
+  .item__first_name {
+    width: 100%;
+  }
+  
+  
+  .item__last_name {
+    width: 100%;
+  }
+}
